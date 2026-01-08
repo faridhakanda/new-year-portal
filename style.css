@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+/* Common style components */
+
+.container {
+    max-width: 1140px;
+    width: 71%;
+   
+}
+.btn {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Header Style Part */
+header {
+    /* margin-top: 116px;
+    margin-right: 10%; */
+    /* background-image: url("images/banner/banner1.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    background: url("images/banner/banner1.png") center / cover no-repeat;
+    aspect-ratio: 1600 / 800;
+    
+}
+.header-content {
+    /* margin-top: 116px; */
+    /* margin-right: 10%; */
+    margin-right: 10%;
+    max-width: 525px;
+    margin-left: auto;
+    padding-top: 216px;
+    align-items: center;
+    
+    
+}
+.header-content h2 {
+    text-align: end;
+    font-size: 65px;
+    font-weight: bold;
+}
+.header-content p {
+    text-align: end;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.header-content button {
+    display: flex;
+    margin-left: auto;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Main Content Style Part */
+.person-part {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 131px;
+}
+
+.person-content {
+    width: 50%;
+}
+.person-content img {
+    width: 100%;
+    
+}
+.person-task {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+}
+.person-task h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.person-task p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #444343;
+}
+.person-task li {
+    list-style: none;
+    margin-bottom: 8px;
+    color: #444343;
+}
+.checkmark {
+    color: #16D887;
+    margin-right: 5px;
+}
+
+.my-plan {
+    margin: 0 auto;
+}
+.my-plan h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.dev-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 0 auto;
+}
+.dev-content .dev-card {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.dev-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.dev-card p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #454545;
+    margin-top: -40px;
+}
+
+.call-now {
+    
+    justify-content: center;
+    
+    background: url("images/gradient2.png"), url("images/watch.png") center / cover no-repeat;
+    aspect-ratio: 1140 / 300;
+    margin: 130px auto;
+    
+}
+.call-assets {
+    margin-left: 10%;
+    padding-top: 10%;
+    
+}
+
+.call-assets h2 {
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+.call-assets button {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Footer style part */
+footer {
+    
+    background-color: black;
+    color: #ffffff;
+    padding: 130px 0;
+
+}
+
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.future {
+    width: 32%;
+}
+.future h2 {
+    margin-bottom: 16px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.future p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.future img {
+    width: 32px;
+    height: 32px;
+    gap: 20px;
+}
+.subscribe {
+    width: 28%;
+    
+}
+.subscribe h2 {
+    margin-bottom: 31px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.subscribe input {
+    display: flex;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.subscribe button {
+    font-size: 15px;
+    font-weight: 600;
+    color: #F15B22;
+}
